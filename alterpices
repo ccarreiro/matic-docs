@@ -1,0 +1,1 @@
+ansible-playbook -l sentry playbooks/network.yml --extra-var="bor_branch=v0.2.9-beta1 heimdall_branch=v0.2.3-beta1  network_version=mainnet-v1 node_type=sentry/sentry heimdall_network=mainnet"
